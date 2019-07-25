@@ -21,8 +21,8 @@ For example if you run following code, console will print out only JavaScript co
 ```python
 import  requests
 
-url = https://www.youtube.com
-response = requests.get(url)  
+url = 'https://www.youtube.com'
+response = requests.get(url)
 print(response.content)
 ```
 

@@ -6,25 +6,7 @@ sass:
   style: :compressed
 
 theme: jekyll-theme-primer
-
-# github:
-#   private: false
-#   license:
-#     name: MIT
-#   source:
-#     branch: "master"
-#     path: "/"
-#   repository_url: "https://github.com/pages-themes/primer"
   
 title: Master Web Scraping with Python
 
-
-# Conversion
-markdown:    kramdown
 highlighter: rouge
-
-# Markdown Processors
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
