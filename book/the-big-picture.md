@@ -39,4 +39,6 @@ Have 2 reasons:
 
 #### Beautiful Soup
 
-We need [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to parse HTML in to object. Beautiful Soup provide functions help us to search HTML tags inside HTML object. After have HTML tags, final step just about access wanted data and save.
+We need [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to parse HTML in to object. Beautiful Soup provide functions help us to search HTML tags inside HTML object.
+
+After have HTML tags, final step just about access wanted data and save.
