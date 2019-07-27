@@ -2,13 +2,13 @@
 layout: default
 ---
 
-[The Big Picture](book/the-big-picture.html)  
-[Inspecting Web Page with Chrome Developer Tool](book/inspecting.html)  
-[Download HTML Content with Selenium Web Driver]()  
-[Create Beautiful Soup Object then Search for Tags]()  
-[Scrape Data from Tags]()  
-[Projects to Scrape Google]()  
-[Projects to Scrape Nba]()  
-[Projects to Scrape Imdb]()  
-[Projects to Scrape Amazon]()  
-[Projects to Scrape Linkedin]()  
+[Step 0 The Big Picture](book/the-big-picture.html)  
+[Step 1 Inspecting Web Page with Chrome Developer Tool](book/inspecting.html)  
+[Step 2 Download HTML Content with Selenium Web Driver]()  
+[Step 3 Create Beautiful Soup Object then Search for Tags]()  
+[Step 4 Scrape Data from Tags]()  
+[Scraping Google]()  
+[Scraping Nba]()  
+[Scraping Imdb]()  
+[Scraping Amazon]()  
+[Scraping Linkedin]()  
