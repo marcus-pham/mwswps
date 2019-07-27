@@ -8,7 +8,7 @@ layout: default
 
 In this chapter, we overview on common web scraping steps. Actually this is really simple process.
 
-**Step 1** : Web scraping always start with a web page and data we want to scrape out from web page. At first step, we need to understand web page then find out  HTML tags contain our wanted data. Result from this step will be used in final step to actually scrape data.
+**Step 1** : Web scraping always start with a web page and data items which we want to scrape out from the page. At first step, we need to understand web page then find out  HTML tags contain our wanted data. Result from this step will be used in final step to actually scrape data.
 
 
 
