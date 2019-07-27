@@ -8,8 +8,9 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.scss"> -->
+    <!-- <link rel="shortcut icon" type="image/png" href="favicon.png"> -->
+    <link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}" >
+    
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
