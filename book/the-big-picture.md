@@ -25,4 +25,4 @@ We use <a href="https://www.seleniumhq.org/" target="_blank">Selenium</a> to con
 
 #### Beautiful Soup
 
-We need [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to parse HTML in to object. Beautiful Soup provide functions help us to search HTML tags inside HTML object. After have HTML tags, final step just about access wanted data and save it.
+We need [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to parse HTML in to object. Beautiful Soup provide functions help us to search HTML tags inside HTML object. After have HTML tags, final step just about access wanted data and save.
