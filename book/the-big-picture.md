@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#### The Big Picture
+### The Big Picture
 
 ![](images/big_picture.png)
 
