@@ -1,15 +1,14 @@
+# import webdriver
 from selenium import webdriver
 
-options = webdriver.ChromeOptions()
-options.headless = False
+# create Chrome object
+driver = webdriver.Chrome(executable_path=r'C:\chromedriver_win32\chromedriver.exe')
 
-chrome_driver_path = r'C:\chromedriver_win32\chromedriver.exe'
-driver = webdriver.Chrome(executable_path=chrome_driver_path, options=options)
+# access url
+driver.get('https://www.nba.com/')
 
-driver.get('http://python.org')
+# access HTML content
+print(driver.page_source)
 
-html_doc = driver.page_source
-
-print(html_doc)
-
+# close browser
 driver.close()
