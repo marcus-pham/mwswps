@@ -1,15 +1,19 @@
+# import webdriver
 from selenium import webdriver
 
+# create option for headness mode
 options = webdriver.ChromeOptions()
 options.headless = True
 
-chrome_driver_path = r'C:\chromedriver_win32\chromedriver.exe'
-driver = webdriver.Chrome(executable_path=chrome_driver_path, options=options)
+# create Chrome object
+driver = webdriver.Chrome(executable_path=r'C:\chromedriver_win32\chromedriver.exe',
+							options=options)
 
-driver.get('http://python.org')
+# access url
+driver.get('https://www.nba.com/')
 
-html_doc = driver.page_source
+# access HTML content
+print(driver.page_source)
 
-print(html_doc)
-
+# close browser
 driver.close()
