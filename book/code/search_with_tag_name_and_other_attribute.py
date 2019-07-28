@@ -21,6 +21,5 @@ html_doc = """
 
 soup = BeautifulSoup(html_doc, 'lxml')
 
-a = soup.find_all('a', {'id':'link1'})
-
-print a
+a = soup.find('a', {'id':'link1'})
+print(a)

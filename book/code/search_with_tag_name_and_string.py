@@ -22,7 +22,6 @@ html_doc = """
 soup = BeautifulSoup(html_doc, 'lxml')
 
 a_elsie = soup.find_all('a', string = 'Elsie')
-
-print a_elsie
+print(a_elsie)
 
 

@@ -23,6 +23,6 @@ soup = BeautifulSoup(html_doc, 'lxml')
 
 a_tags = soup.find_all('a')
 
-print a_tags
+print(a_tags)
 
-print len(a_tags)
+print(len(a_tags))

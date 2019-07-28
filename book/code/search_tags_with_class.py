@@ -22,10 +22,8 @@ html_doc = """
 soup = BeautifulSoup(html_doc, 'lxml')
 
 p_tag = soup.find('p', class_ = 'story')
+print(p_tag)
 
-print p_tag
-
-p_tags = soup.find_all('p', class_ = 'story')
-
-print p_tags
+# p_tags = soup.find_all('p', class_ = 'story')
+# print(p_tags)
 

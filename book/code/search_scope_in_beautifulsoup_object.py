@@ -27,10 +27,9 @@ html_doc = """
 soup = BeautifulSoup(html_doc, 'lxml')
 
 first_p = soup.find('p')
+first_b_inside_first_p = first_p.find('b')
 
-print first_p.find('a')
-
-print first_p.find('b')
+print(first_b_inside_first_p)
 
 
 
