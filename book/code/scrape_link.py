@@ -27,9 +27,8 @@ html_doc = """
 soup = BeautifulSoup(html_doc, 'lxml')
 
 a_tags = soup.find_all('a')
-
 for a in a_tags:
-	print a['href']
+	print(a['href'])
 
 
 
