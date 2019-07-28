@@ -4,7 +4,7 @@ layout: default
 
 ### Download HTML Page Content
 
-In chapter we will download HTML page content with selenium package. And try to control Chrome web browser in two mode normal mode and headness mode.
+At step 2,  we will download HTML page content with selenium package. And try to control Chrome web browser in two mode normal mode and headness mode.
 
 #### Installation
 

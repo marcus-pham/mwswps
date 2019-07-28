@@ -4,7 +4,7 @@ layout: default
 
 ### Inspecting Web Page with Chrome Developer Tool
 
-In this chapter we will go in deep detail how to use `Chrome Developer Tool` to inspect web page.
+At step 1, we will go in deep detail how to use `Chrome Developer Tool` to inspect web page.
 
 At end of this chapter you will understand how to do inspecting web page and have clear strategies to scrape data from HTML page.
 
