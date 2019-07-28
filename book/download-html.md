@@ -31,7 +31,8 @@ from selenium import webdriver
 Then we want to create `Chrome` object, note that we need to specify abolute path where we place downloaded `chrome driver` above.
 
 ```python
-driver = webdriver.Chrome(executable_path=r'C:\chromedriver_win32\chromedriver.exe')
+driver_path = r'C:\chromedriver_win32\chromedriver.exe'
+driver = webdriver.Chrome(executable_path=driver_path)
 ```
 
 Now with `driver` object, we could download HTML content with `get` function. Support we want to download HTML from https://www.nba.com/. You could see that a Chome browser instance is created then NBA home page is loaded.
@@ -59,7 +60,8 @@ That it, let summary every thing again
 from selenium import webdriver
 
 # create Chrome object
-driver = webdriver.Chrome(executable_path=r'C:\chromedriver_win32\chromedriver.exe')
+driver_path = r'C:\chromedriver_win32\chromedriver.exe'
+driver = webdriver.Chrome(executable_path=driver_path)
 
 # access url
 driver.get('https://www.nba.com/')
@@ -93,8 +95,9 @@ Now when we create `Chrome` object, we need put in `option` parameter.
 
 ```python
 # create Chrome object with option
-driver = webdriver.Chrome(executable_path=r'C:\chromedriver_win32\chromedriver.exe',
-							options=options)
+driver_path = r'C:\chromedriver_win32\chromedriver.exe'
+driver = webdriver.Chrome(executable_path=driver_path,
+                          options=options)
 ```
 
 That it, let summary every thing again
@@ -108,8 +111,9 @@ options = webdriver.ChromeOptions()
 options.headless = True
 
 # create Chrome object
-driver = webdriver.Chrome(executable_path=r'C:\chromedriver_win32\chromedriver.exe',
-							options=options)
+driver_path = r'C:\chromedriver_win32\chromedriver.exe'
+driver = webdriver.Chrome(executable_path=driver_path,
+                          options=options)
 
 # access url
 driver.get('https://www.nba.com/')
