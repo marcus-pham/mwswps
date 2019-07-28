@@ -6,7 +6,7 @@ layout: default
 [Step 1 - Inspecting Web Page](book/inspecting.html)  
 [Step 2 - Download HTML](book/download-html.html)  
 [Step 3 - Create Soup and Search](book/create-soup-and-search.html)  
-[Step 4 - Scrape Data from Tags]()  
+[Step 4 - Scrape Data from Tags](book/scrape-data-from-tag.html)  
 [(on going) Project 1 - Basket Ball Data from Nba]()  
 [(on going) Project 2 - Search Data from Google]()  
 [(on going) Project 3 - Movie Data from Imdb]()  
