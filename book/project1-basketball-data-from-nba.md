@@ -125,9 +125,11 @@ pie :  12.0
 ...
 ```
 
+<video width="700" height="500" controls>  
+    <source src="images/detail.mp4" type="video/mp4">
+</video>
 
 
-![](images/detail.gif)
 
 
 
@@ -138,8 +140,4 @@ Now we want to get image for each player
 ![](images/2019-07-31_0-37-32.jpg)
 
 Result should as following video
-
-<video width="700" height="500" controls>  
-    <source src="images/detail.mp4" type="video/mp4">
-</video>
 
