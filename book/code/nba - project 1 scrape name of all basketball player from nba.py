@@ -1,24 +1,18 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-# create driver
-driver = webdriver.PhantomJS(executable_path = r'C:\phantomjs-2.1.1-windows\bin\phantomjs.exe')
+def get_all_name():
+	url = 'https://stats.nba.com/players/list/'
+	driver.get(url)
 
-url = 'http://stats.nba.com/players/?ls=iref:nba:gnav'
+	soup = BeautifulSoup(driver.page_source, 'lxml')
+	div = soup.find('div', class_= 'stats-player-list')
 
-# download html page
-driver.get(url)
+	for li in div.find_all('li', class_='players-list__name'):
+		print(li.text)
 
-# print driver.page_source
+driver = webdriver.Chrome(executable_path=r'C:\chromedriver_win32\chromedriver.exe')
 
-# create soup
-soup = BeautifulSoup(driver.page_source, 'lxml')
-
-div = soup.find('div', class_= 'col-lg-12')
-
-# print div
-
-for a in div.find_all('a'):
-	print a.text
+get_all_name()
 
 driver.quit()
